@@ -1,0 +1,22 @@
+header {
+    min-height: 80px;
+}
+
+.row {
+
+    border: 1px dashed black;
+}
+
+.col {
+    border: 1px dashed pink;
+    height: 80px;
+}
+
+.col-12 {
+    height: 600px;
+}
+
+.container,
+.container-fluid {
+    border: 1px dashed green;
+}
