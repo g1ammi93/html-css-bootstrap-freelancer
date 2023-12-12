@@ -85,12 +85,40 @@ li {
     padding-left: 0;
 }
 
+.star-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-divider:after,
+.star-divider:before {
+    content: '';
+    margin: 0 10px;
+    height: 2px;
+    width: 50px;
+    background-color: white;
+    display: inline-block;
+}
+
+.star-divider.black:after,
+.star-divider.black:before {
+    background-color: black;
+}
+
 
 @media screen and (min-width: 770px) {
 
     .cs-card {
         width: 50%;
         height: 100%;
+    }
+
+    .star-divider:after,
+    .star-divider:before {
+
+        width: 100px;
+
     }
 }
 
