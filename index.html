@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
 
+    <!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css'
         integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=='
@@ -16,61 +22,190 @@
 </head>
 
 <body>
-    <header class="container-fluid bg-primary">
-        <div class="row d-flex row-cols-2">
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-md csbg-darkblue text-uppercase fw-bold py-4" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand fs-2" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <div class="container-fluid">
+    <div class="container-fluid csbg">
         <div class="row">
-            <div class="col-12"></div>
+            <div class="col-12 d-fle align-item-center cs-direction-column">
+                <div class="cs-avatar mx-auto mb-4">
+                    <img src="img/avatar.svg" alt="avatar">
+                </div>
+                <div class="text-white text-center">
+                    <h1 class="mb-4">START BOOTSTRAP</h1>
+                    <span class="fs-2 cs-bl mb-4"><i class="fa-solid fa-star"></i></span>
+                    <span class="cs-bl mb-4"> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
+                </div>
+            </div>
         </div>
     </div>
     <main>
-        <div class="container">
-            title
+        <section class="container">
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h2>PORTFOLIO</h2>
+                    <span class="fs-2"><i class="fa-solid fa-star"></i></span>
+                </div>
+                <h2></h2>
+            </div>
             <div class="row d-flex row-cols-1 row-cols-md-2 row-cols-lg-3">
-                <div class="col mb-4 p-md-2"></div>
-                <div class="col mb-4 p-md-2"></div>
-                <div class="col mb-4 p-md-2"></div>
-                <div class="col mb-4 p-md-2"></div>
-                <div class="col mb-4 p-md-2"></div>
-                <div class="col mb-4 p-md-2"></div>
+                <div class="col mb-4 p-md-2 cs-card">
+
+                    <img src="img/cabin.png" alt="Cabin" class="rounded">
+
+
+                </div>
+                <div class="col mb-4 p-md-2 cs-card">
+                    <img src="img/cake.png" alt="Cake" class="rounded">
+
+
+                </div>
+                <div class="col mb-4 p-md-2 cs-card">
+                    <img src="img/circus.png" alt="Circus" class="rounded">
+                </div>
+                <div class="col mb-4 p-md-2 cs-card">
+                    <img src="img/game.png" alt="Joypad" class="rounded">
+                </div>
+                <div class="col mb-4 p-md-2 cs-card">
+                    <img src="img/safe.png" alt="Safe" class="rounded">
+                </div>
+                <div class="col mb-4 p-md-2 cs-card">
+                    <img src="img/submarine.png" alt="Submarine" class="rounded">
+                </div>
             </div>
-        </div>
-        <div class="container-fluid bg-danger">
-            <div class="row row-cols-1 row-cols-md-3 d-flex">
-                <div class="col col-md-12"></div>
-                <div class="col col-md-6"></div>
-                <div class="col col-md-6"></div>
-                <div class="col col-md-12"></div>
+        </section>
+        <section class="csbg">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-white text-center">
+                        <h3 class="my-4">ABOUT</h3>
+                        <span class="fs-2 cs-bl mb-4"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-1 col-10 col-md-5 text-white mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloremque modi autem
+                        eveniet debitis magnam vitae reprehenderit eligendi obcaecati ab sed aut nostrum fuga itaque
+                        enim,
+                        nemo consequuntur? Debitis, odit!
+                    </div>
+                    <div class="offset-1 col-10 col-md-5 offset-md-0 text-white">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, veniam distinctio, dolor
+                        dolores voluptas sit neque vitae dolore non a qui iste aliquid laborum debitis odit alias
+                        facilis
+                        eaque quo.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <button type="button" class="btn btn-outline-light"><i
+                                class="fa-solid fa-download"></i>Download</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row row-cols-1">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+        </section>
+        <section class="cs-contacs">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h3 class="my-4">CONTACT ME</h3>
+                        <span class="fs-2 cs-bl mb-4"><i class="fa-solid fa-star"></i></span>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col col-10">
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+
+                                <input type="email" class="form-control" id="email" placeholder="Email address">
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+
+                                <textarea class="form-control" id="message" placeholder="Message" rows="5"></textarea>
+                            </div>
+                            <button class="btn btn-success">Send</button>
+                        </form>
+                    </div>
+
+
+                </div>
             </div>
-        </div>
+        </section>
+        </section>
     </main>
-    <footer>
-        <div class="container-fluid">
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+    <footer class="csbg-lightgray">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 text-center text-white">
+                <div class="col mb-4">
+                    <span class="cs-bl text-uppercase mt-4 mb-1">Location</span>
+                    <span class="text-uppercase">2215 John Daniel Drive Clark, MO 54243</span>
+                </div>
+                <div class="col mt-4">
+                    <span class="text-uppercaset text-center">AROUND THE WEB</span>
+                    <ul class="d-flex justify-content-center cs-no-m">
+                        <li><a class="btn btn-outline-light rounded-circle cs-social" href="#" role="button"><i
+                                    class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a class="btn btn-outline-light rounded-circle cs-social" href="#" role="button"><i
+                                    class="fa-brands fa-google-plus-g"></i></a></li>
+                        <li><a class="btn btn-outline-light rounded-circle cs-social" href="#" role="button"><i
+                                    class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="btn btn-outline-light rounded-circle cs-social" href="#" role="button"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+
+                    </ul>
+                </div>
+                <div class="col mb-5">
+                    <span class="cs-bl text-uppercase mt-4 mb-1">ABOUT FREELANCER</span>
+                    <span>Freelance is a free to use, open source Bootstrap theme created by
+                        <span class="text-success">Start Bootstrap</span></span>
+                </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid csbg-darkblue py-4">
             <div class="row-cols-1">
-                <div class="col"></div>
+                <div class="col text-center text-white">
+                    <span>Copyright Your Website 2019</span>
+                </div>
             </div>
         </div>
     </footer>
 
 
+    <!-- JavaScript Bootstrap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/5.0.11/bootstrap-native.min.js"
+        integrity="sha512-Aeh2nZwUza6chbrBnKBjK/ajsJVoqcO+gUIFoTWmZXmCAHNQL8dFEn3jQLWle7WWAjw1nRryC6aFe/H86BDMGw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 
